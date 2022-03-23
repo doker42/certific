@@ -1,0 +1,10 @@
+git clone
+
+composer install
+
+create db
+
+set db credentials
+
+php artisan migrate
+
