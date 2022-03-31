@@ -61,6 +61,6 @@ class MainController extends Controller
 
     public function foo()
     {
-        retutn 'FOO!';
+        return 'FOO!';
     }
 }
