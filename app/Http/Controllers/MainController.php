@@ -58,4 +58,9 @@ class MainController extends Controller
 
         return $pdf->download("certificate.pdf");
     }
+
+    public function foo()
+    {
+        retutn 'FOO!';
+    }
 }
