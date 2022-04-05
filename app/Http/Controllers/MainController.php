@@ -63,4 +63,9 @@ class MainController extends Controller
     {
         return 'FOO!';
     }
+
+    public function list()
+    {
+        return view('list', ['certificates' => Certificate::all()]);
+    }
 }

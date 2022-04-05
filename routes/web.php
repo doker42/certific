@@ -18,4 +18,5 @@ Route::get('/form', 'MainController@form')->name('form');
 Route::post('/create', 'MainController@create')->name('create');
 Route::get('/load-page/{certificate}', 'MainController@loadPage')->name('load_page');
 Route::get('/load/{certificate}', 'MainController@loadPdf')->name('load_pdf');
+Route::get('/list', 'MainController@list')->name('list');
 
